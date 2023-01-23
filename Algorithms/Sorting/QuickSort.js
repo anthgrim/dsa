@@ -13,7 +13,6 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
  * @param {number} right
  */
 function quickSort(array, left, right) {
-  const len = array.length
   let pivot
   let partitionIndex
 
